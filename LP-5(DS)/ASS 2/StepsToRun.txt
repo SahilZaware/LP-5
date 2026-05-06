@@ -1,0 +1,12 @@
+🔹 How to Run
+
+Step 1: Compile all files -    javac *.java
+
+
+Step 2: Start registry-   rmiregistry
+
+
+Step 3: Run server-    java Server
+
+
+Step 4: Run client-    java Client
