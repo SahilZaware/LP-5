@@ -1,0 +1,11 @@
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public class HelloService {
+
+    @WebMethod
+    public String sayHello(String name) {
+        return "Hello " + name;
+    }
+}

@@ -1,0 +1,14 @@
+🔹 Steps to Run
+
+
+1. Set classpath (important)
+set classpath=.;C:\mpj\lib\mpj.jar
+
+👉 (Path depends on your installation)
+
+2. Compile
+javac SumMPI.java
+
+
+3. Run with processors
+mpjrun.bat -np 4 SumMPI

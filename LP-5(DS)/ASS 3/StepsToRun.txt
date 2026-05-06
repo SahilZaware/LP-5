@@ -1,0 +1,20 @@
+🔹 HOW TO RUN
+
+1. Generate files
+idlj -fall Calculator.idl
+
+
+2. Compile everything
+javac *.java CalculatorApp/*.java
+
+
+3. Start ORB service
+orbd -ORBInitialPort 1050 -ORBInitialHost localhost
+
+
+4. Run Server
+java Server -ORBInitialPort 1050 -ORBInitialHost localhost
+
+
+5. Run Client
+java Client -ORBInitialPort 1050 -ORBInitialHost localhost

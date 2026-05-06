@@ -1,0 +1,9 @@
+🔹 How to Run 
+
+
+Step 1: Compile
+javac -cp mpj.jar SumMPI.java
+
+
+Step 2: Run
+mpjrun.sh -np 4 SumMPI
